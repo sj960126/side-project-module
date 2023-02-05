@@ -1,4 +1,4 @@
-package com.module.base
+package com.module.base.view
 
 import android.os.Bundle
 import android.util.Log
