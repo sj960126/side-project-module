@@ -3,6 +3,7 @@ package com.module.base.viewmodel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import io.reactivex.disposables.CompositeDisposable
 
 /**
  * BaseViewModel
