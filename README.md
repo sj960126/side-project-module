@@ -23,7 +23,11 @@
 ├──-                              # app-android-module
 │   ├── Base
 │       ├── View                    # Base View -> Activity,Fragment....
-│       └── ViewModel               # Base ViewModel 
+│       └── ViewModel               # Base ViewModel
+├──-
+│   ├── Core
+│       ├── Mvi                    # mvi architecture Interface 
+
 ```
 
 ## Developers
