@@ -1,4 +1,4 @@
-package com.module.base.view
+package com.module.base.view.ui.container
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

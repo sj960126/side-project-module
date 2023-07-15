@@ -1,4 +1,4 @@
-package com.module.base.view
+package com.module.base.view.ui.dialog
 
 import android.app.Dialog
 import android.os.Bundle
