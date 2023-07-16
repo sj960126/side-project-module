@@ -21,12 +21,17 @@
 ```bash
 .
 ├──-                              # app-android-module
-│   ├── Base
+│   ├── base
 │       ├── View                    # Base View -> Activity,Fragment....
 │       └── ViewModel               # Base ViewModel
 ├──-
-│   ├── Core
-│       ├── Mvi                    # mvi architecture Interface 
+│   ├── core
+│       ├── mvi                    # mvi architecture Interface
+├──-
+│   ├──core-data
+│       ├── authorization           # authorization Interface 
+│       ├── retrofit                # retrofit....interceptor
+│               ├── interceptor                # interceptor
 
 ```
 
