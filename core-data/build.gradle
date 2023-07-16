@@ -58,6 +58,4 @@ dependencies {
 
     implementation "com.google.code.gson:gson:2.9.0"
 
-    implementation "com.jakewharton.timber:timber:4.7.1"
-
 }
