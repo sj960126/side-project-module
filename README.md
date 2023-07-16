@@ -1,4 +1,4 @@
-![HEADER](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=100&section=header&text=Base_Module&fontSize=30&fontAlign=50&fontAlignY=50)
+![HEADER](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=100&section=header&text=side-project-module&fontSize=30&fontAlign=50&fontAlignY=50)
 
 ## About💡
 > 프로젝트에서 사용되는 모듈을 관리하는 Repository
