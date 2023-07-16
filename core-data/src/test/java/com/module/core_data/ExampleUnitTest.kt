@@ -1,4 +1,4 @@
-package com.toonhub.core_data
+package com.module.core_data
 
 import org.junit.Test
 
