@@ -10,7 +10,7 @@ import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
 
-class CoreLogInterceptor(private val isDebug : Boolean) : Interceptor{
+class CoreLogInterceptor(private val isDebug : Boolean = true) : Interceptor{
 
     companion object {
         private const val TAG = "RetrofitLog"
