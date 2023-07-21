@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Base"
-include ':app'
-include ':base'
-include ':core'
-include ':core-data'
+include(":app")
+include(":base")
+include(":core")
+include(":core-data")
