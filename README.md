@@ -7,9 +7,9 @@
 
 ### ⚠️  Dependency
 ```kotlin 
-  compileSdk 32
+  compileSdk 33
   minSdk 24
-  targetSdk 32
+  targetSdk 33
 ```
 ### arr 파일 명명법 
 ```kotlin 
