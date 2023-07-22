@@ -72,7 +72,7 @@ object Dependencies {
     object ThirdParty {
         val commonsIo = "commons-io:commons-io:2.4"
         val lottie = "com.airbnb.android:lottie:3.4.0"
-
+        val timber = "com.jakewharton.timber:timber:4.7.1"
         object Reactivex {
             val rxjava = "io.reactivex.rxjava2:rxjava:2.2.19"
             val rxandroid = "io.reactivex.rxjava2:rxandroid:2.1.1"

@@ -1,6 +1,8 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
+
 }
 
 android {
@@ -47,11 +49,14 @@ dependencies {
     implementation(Dependencies.AndroidX.fragment)
 
     // room
-    implementationRoom()
+   implementationRoom()
 
     implementation(Dependencies.Android.extensions)
 
     // hlit
     implementationHilt()
+
+    // Timber
+    implementation(Dependencies.ThirdParty.timber)
 
 }
