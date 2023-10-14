@@ -70,3 +70,8 @@ fun DependencyHandler.implementationHilt() {
     add("testImplementation", Dependencies.Google.Hilt.androidTesting)
     add("kaptTest", Dependencies.Google.Hilt.androidCompiler)
 }
+//Orbit
+fun DependencyHandler.implementationOrbit() {
+    add("implementation", Dependencies.ThirdParty.Oribit.core)
+    add("implementation", Dependencies.ThirdParty.Oribit.viewmodel)
+}

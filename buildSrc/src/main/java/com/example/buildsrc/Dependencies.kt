@@ -93,6 +93,10 @@ object Dependencies {
             val mobwithSDK = "io.github.mobon:mobwithSDK:${Versions.mob}"
             val materialCalendarview = "com.github.prolificinteractive:material-calendarview:1.6.1"
         }
+        object Oribit {
+            val core = "org.orbit-mvi:orbit-core:${Versions.orbit}"
+            val viewmodel = "org.orbit-mvi:orbit-viewmodel:${Versions.orbit}"
+        }
     }
 
 }
