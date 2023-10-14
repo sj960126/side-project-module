@@ -1,9 +1,7 @@
-package com.module.base.viewmodel
+package com.example.core.orbit.viewmodel
 
-import android.media.effect.Effect
 import androidx.lifecycle.viewModelScope
-import com.module.base.common.sideeffect.OrbitSideEffect
-import com.module.base.common.state.OrbitState
+import com.module.base.viewmodel.BaseViewModel
 import kotlinx.coroutines.launch
 import org.orbitmvi.orbit.Container
 import org.orbitmvi.orbit.ContainerHost
@@ -16,7 +14,7 @@ import org.orbitmvi.orbit.viewmodel.container
  * @author HyunSoo
  * @since 2023/10/14
  **/
-open class OrbitMviViewModel<STATE : OrbitState, EFFECT : OrbitSideEffect>(
+open class OrbitMviViewModel<STATE : com.example.core.orbit.common.state.OrbitState, EFFECT : com.example.core.orbit.common.sideeffect.OrbitSideEffect>(
     private val state: STATE
 ): BaseViewModel(), ContainerHost<STATE,EFFECT>{
 

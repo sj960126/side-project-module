@@ -57,4 +57,7 @@ dependencies {
     // hlit
     implementationHilt()
 
+    // Orbit
+    implementationOrbit()
+
 }

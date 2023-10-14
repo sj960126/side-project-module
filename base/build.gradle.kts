@@ -52,6 +52,5 @@ dependencies {
     implementation(Dependencies.ThirdParty.commonsIo)
     implementation(Dependencies.Android.extensions)
 
-    implementationOrbit()
 }
 
