@@ -22,7 +22,6 @@
 .
 ├──-                              # app-android-module
 │   ├── base
-│       └── common                  # Base common
 │       ├── View                    # Base View -> Activity,Fragment....
 │       └── ViewModel               # Base ViewModel
 │              ├── BaseViewModel
@@ -30,6 +29,9 @@
 ├──-
 │   ├── core
 │       ├── mvi                    # mvi architecture Interface
+│       └── orbit                 
+│             └── commont
+│             └── viewmodel                   
 ├──-
 │   ├──core-data
 │       ├── authorization           # authorization Interface 
